@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — NXTGEN ACADEMY</title>
+<meta name="description" content="Get in touch with NXTGEN ACADEMY to enroll in the full-stack web development course or ask a question.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="tabbar">
+  <div class="tabbar-inner">
+    <a href="index.html" class="brand">
+      <span class="dots"><span></span><span></span><span></span></span>
+      <span class="brand-name">NXTGEN_ACADEMY<span class="cursor"></span></span>
+    </a>
+    <nav class="navlinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="courses.html">Courses</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <div class="flex items-center gap-12">
+      <a href="courses.html" class="nav-cta">Enroll — ₹4,999</a>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<section style="padding-top:64px; padding-bottom:24px;">
+  <div class="container">
+    <div class="eyebrow">contact --init</div>
+    <h1>Let's get you enrolled.</h1>
+    <p style="font-size:1.1rem; max-width:560px;">Questions about the course, batch timings, or the ₹4,999 fee? Reach out — a real person replies, not a bot.</p>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="container grid grid-2" style="align-items:start; gap:32px;">
+
+    <!-- CONTACT INFO -->
+    <div class="window accent-teal">
+      <div class="window-bar"><span class="dots"><span></span><span></span><span></span></span><span class="filename">contact-info.txt</span></div>
+      <div class="window-body">
+        <h3>Reach us directly</h3>
+
+        <div class="mt-24">
+          <p class="mono" style="color:var(--ink); font-weight:700; margin-bottom:2px;">📍 Address</p>
+          <p>NXTGEN ACADEMY<br>
+          32/98 - Karaneeswarar Koil Street<br>
+          Mylapore, Chennai, Tamilnadu – 600004<br>
+          India</p>
+        </div>
+
+        <div class="mt-16">
+          <p class="mono" style="color:var(--ink); font-weight:700; margin-bottom:2px;">📞 Phone</p>
+          <p><a href="tel:+91XXXXXXXXXX" style="text-decoration:underline;">+91 72004 135XX</a></p>
+        </div>
+
+        <div class="mt-16">
+          <p class="mono" style="color:var(--ink); font-weight:700; margin-bottom:2px;">✉️ Email</p>
+          <p><a href="mailto:hello@nxtgenacademy.in" style="text-decoration:underline;">rohitsreee232@gmail.com</a></p>
+        </div>
+
+        <div class="mt-16">
+          <p class="mono" style="color:var(--ink); font-weight:700; margin-bottom:2px;">🕘 Office hours</p>
+          <p>Mon–Sat, 10:00 AM – 7:00 PM IST</p>
+        </div>
+
+        <div class="mt-16">
+          <p class="mono" style="color:var(--ink); font-weight:700; margin-bottom:10px;">Follow along</p>
+          <div class="stack-row">
+            <a href="#" class="chip">Instagram</a>
+            <a href="#" class="chip">LinkedIn</a>
+            <a href="#" class="chip">YouTube</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT FORM -->
+    <div class="window accent-coral">
+      <div class="window-bar"><span class="dots"><span></span><span></span><span></span></span><span class="filename">contact-form.js</span></div>
+      <div class="window-body">
+        <h3>Send a message</h3>
+        <form id="contact-form">
+          <div class="mt-16">
+            <label class="mono" style="font-size:0.85rem;" for="name">Name</label>
+            <input id="name" name="name" type="text" required placeholder="Your full name"
+              style="width:100%; margin-top:6px; padding:12px 14px; border:2px solid var(--ink); border-radius:8px; font-family:var(--font-body); font-size:0.95rem;">
+          </div>
+          <div class="mt-16">
+            <label class="mono" style="font-size:0.85rem;" for="email">Email</label>
+            <input id="email" name="email" type="email" required placeholder="you@example.com"
+              style="width:100%; margin-top:6px; padding:12px 14px; border:2px solid var(--ink); border-radius:8px; font-family:var(--font-body); font-size:0.95rem;">
+          </div>
+          <div class="mt-16">
+            <label class="mono" style="font-size:0.85rem;" for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" placeholder="+91 XXXXX XXXXX"
+              style="width:100%; margin-top:6px; padding:12px 14px; border:2px solid var(--ink); border-radius:8px; font-family:var(--font-body); font-size:0.95rem;">
+          </div>
+          <div class="mt-16">
+            <label class="mono" style="font-size:0.85rem;" for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="I'd like to know more about the next batch..."
+              style="width:100%; margin-top:6px; padding:12px 14px; border:2px solid var(--ink); border-radius:8px; font-family:var(--font-body); font-size:0.95rem; resize:vertical;"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block mt-24">▶ Send message</button>
+          <p id="form-status" class="mono" style="display:none; margin-top:14px; color:var(--teal);"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MAP PLACEHOLDER -->
+<section>
+  <div class="container">
+    <div class="window accent-violet">
+      <div class="window-bar"><span class="dots"><span></span><span></span><span></span></span><span class="filename">location.map</span></div>
+      <div class="window-body" style="padding:0;">
+        <div style="height:280px; display:flex; align-items:center; justify-content:center; flex-direction:column; gap:8px; background:
+          repeating-linear-gradient(45deg, var(--bg-alt), var(--bg-alt) 12px, #fff 12px, #fff 24px);">
+          <span style="font-size:2rem;">📍</span>
+          <p class="mono" style="color:var(--ink-soft); margin:0;">Map preview — add your Google Maps embed here</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand"><span class="dots"><span></span><span></span><span></span></span>NXTGEN_ACADEMY</div>
+        <p style="color:rgba(255,255,255,0.7); max-width:320px;">A focused, project-first full-stack web development program. Learn it, build it, ship it.</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="courses.html">Courses</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div>
+        <h4>Program</h4>
+        <div class="footer-links">
+          <span style="color:rgba(255,255,255,0.7);">Duration: 4 months</span>
+          <span style="color:rgba(255,255,255,0.7);">Fee: ₹4,999</span>
+          <a href="contact.html">Enroll now →</a>
+        </div>
+      </div>
+    </div>
+    <hr class="divider" style="opacity:0.15;">
+    <div class="footer-bottom">
+      <span>© 2026 NXTGEN ACADEMY. All rights reserved.</span>
+      <span>Made for people who'd rather build than sit through slides.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

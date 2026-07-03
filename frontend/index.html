@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NXTGEN ACADEMY — Full-Stack Web Development Course</title>
+<meta name="description" content="Become a full-stack web developer in 4 months. Live classes, real projects, mentor support. ₹4,999 all-inclusive.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="tabbar">
+  <div class="tabbar-inner">
+    <a href="index.html" class="brand">
+      <span class="dots"><span></span><span></span><span></span></span>
+      <span class="brand-name">NXTGEN_ACADEMY<span class="cursor"></span></span>
+    </a>
+    <nav class="navlinks">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="courses.html">Courses</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="flex items-center gap-12">
+      <a href="courses.html" class="nav-cta">Enroll — ₹4,999</a>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section style="padding-top:64px;">
+  <div class="container grid grid-2" style="align-items:center; gap:48px;">
+    <div>
+      <div class="eyebrow">whoami</div>
+      <h1>Ship real apps.<br>Get job-ready.<br><span style="color:var(--coral);">In 4 months.</span></h1>
+      <p style="font-size:1.15rem; max-width:480px;">A full-stack web development course built around one idea: you learn best by building. HTML to deployment, one live cohort at a time — for <strong style="color:var(--ink);">₹4,999</strong>, all-in.</p>
+      <div class="flex flex-wrap gap-16 mt-24">
+        <a href="courses.html" class="btn btn-primary">▶ Enroll now — ₹4,999</a>
+        <a href="courses.html#curriculum" class="btn btn-secondary">See curriculum</a>
+      </div>
+      <div class="flex flex-wrap gap-12 mt-40">
+        <span class="chip"><span class="chip-dot" style="background:var(--teal);"></span>4 months</span>
+        <span class="chip"><span class="chip-dot" style="background:var(--yellow);"></span>Live + hands-on</span>
+        <span class="chip"><span class="chip-dot" style="background:var(--violet);"></span>Mentor support</span>
+        <span class="chip"><span class="chip-dot" style="background:var(--coral);"></span>Certificate</span>
+      </div>
+    </div>
+
+    <div class="window accent-violet">
+      <div class="window-bar">
+        <span class="dots"><span></span><span></span><span></span></span>
+        <span class="filename">student.js</span>
+      </div>
+      <div class="window-body mono" style="font-size:0.92rem; line-height:1.7; background:#14142B; color:#EDEBFF;">
+<span style="color:#8892B0;">// day 1 of the rest of your career</span><br>
+<span style="color:#FF9B93;">const</span> <span style="color:#7FE6DC;">student</span> = {<br>
+&nbsp;&nbsp;name: <span style="color:#FFD23F;">"you"</span>,<br>
+&nbsp;&nbsp;knowsCode: <span style="color:#FF9B93;">false</span>,<br>
+&nbsp;&nbsp;months: <span style="color:#FFD23F;">4</span>,<br>
+&nbsp;&nbsp;fee: <span style="color:#FFD23F;">4999</span>,<br>
+};<br><br>
+<span style="color:#7FE6DC;">enroll</span>(student)<br>
+&nbsp;&nbsp;.then(() =&gt; student.knowsCode = <span style="color:#FF9B93;">true</span>)<br>
+&nbsp;&nbsp;.then(() =&gt; deploy(student.portfolio))<br>
+&nbsp;&nbsp;.then(() =&gt; <span style="color:#7FE6DC;">console</span>.log(<span style="color:#FFD23F;">"hired 🚀"</span>));
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS STRIP -->
+<section class="bg-alt" style="padding:44px 0; border-top:2px solid var(--ink); border-bottom:2px solid var(--ink);">
+  <div class="container grid grid-4" style="text-align:center; gap:12px;">
+    <div><h3 class="mono" style="color:var(--coral); font-size:1.8rem;">4</h3><p class="mono" style="font-size:0.85rem;">months, one program</p></div>
+    <div><h3 class="mono" style="color:var(--teal); font-size:1.8rem;">₹4,999</h3><p class="mono" style="font-size:0.85rem;">all-inclusive fee</p></div>
+    <div><h3 class="mono" style="color:var(--violet); font-size:1.8rem;">2</h3><p class="mono" style="font-size:0.85rem;">capstone projects built</p></div>
+    <div><h3 class="mono" style="color:#D89B00; font-size:1.8rem;">1:1</h3><p class="mono" style="font-size:0.85rem;">mentor doubt support</p></div>
+  </div>
+</section>
+
+<!-- TECH STACK -->
+<section>
+  <div class="container">
+    <div class="section-head text-center">
+      <div class="eyebrow" style="margin-left:auto; margin-right:auto;">stack --list</div>
+      <h2>The tools working developers actually use</h2>
+      <p>No outdated syllabus. You'll write, break, and ship real code with this exact stack.</p>
+    </div>
+    <div class="stack-row" style="justify-content:center;">
+      <span class="chip"><span class="chip-dot" style="background:var(--html);"></span>HTML5</span>
+      <span class="chip"><span class="chip-dot" style="background:var(--css);"></span>CSS3</span>
+      <span class="chip"><span class="chip-dot" style="background:#D6B800;"></span>JavaScript</span>
+      <span class="chip"><span class="chip-dot" style="background:var(--react);"></span>React</span>
+      <span class="chip"><span class="chip-dot" style="background:var(--tailwind);"></span>Tailwind CSS</span>
+      <span class="chip"><span class="chip-dot" style="background:var(--node);"></span>Node.js</span>
+      <span class="chip"><span class="chip-dot" style="background:var(--ink);"></span>Express</span>
+      <span class="chip"><span class="chip-dot" style="background:var(--mongo);"></span>MongoDB</span>
+      <span class="chip"><span class="chip-dot" style="background:var(--git);"></span>Git &amp; GitHub</span>
+    </div>
+  </div>
+</section>
+
+<!-- WHY NXTGEN -->
+<section class="bg-alt">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">why --nxtgen</div>
+      <h2>Built like a course we'd want to take</h2>
+    </div>
+    <div class="grid grid-3">
+      <div class="window accent-coral">
+        <div class="window-bar"><span class="dots"><span></span><span></span><span></span></span><span class="filename">01-projects.md</span></div>
+        <div class="window-body"><h3>Project-first, not slide-first</h3><p>Every concept is taught by building something real — no 200-slide theory dumps.</p></div>
+      </div>
+      <div class="window accent-teal">
+        <div class="window-bar"><span class="dots"><span></span><span></span><span></span></span><span class="filename">02-batches.md</span></div>
+        <div class="window-body"><h3>Small, live batches</h3><p>Live sessions with a mentor who actually knows your name and where you're stuck.</p></div>
+      </div>
+      <div class="window accent-yellow">
+        <div class="window-bar"><span class="dots"><span></span><span></span><span></span></span><span class="filename">03-support.md</span></div>
+        <div class="window-body"><h3>Doubt support, not doubt dumps</h3><p>Dedicated slots to get your code reviewed and your errors actually explained.</p></div>
+      </div>
+      <div class="window accent-violet">
+        <div class="window-bar"><span class="dots"><span></span><span></span><span></span></span><span class="filename">04-portfolio.md</span></div>
+        <div class="window-body"><h3>A portfolio, not just a certificate</h3><p>Leave with two deployed, demo-able full-stack apps you can show in interviews.</p></div>
+      </div>
+      <div class="window accent-blue">
+        <div class="window-bar"><span class="dots"><span></span><span></span><span></span></span><span class="filename">05-pricing.md</span></div>
+        <div class="window-body"><h3>Honest, one-time pricing</h3><p>₹4,999 for the full 4 months. No hidden "advanced module" upsells later.</p></div>
+      </div>
+      <div class="window accent-coral">
+        <div class="window-bar"><span class="dots"><span></span><span></span><span></span></span><span class="filename">06-career.md</span></div>
+        <div class="window-body"><h3>Career-prep built in</h3><p>Resume, GitHub profile, and mock-interview practice in your final month.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CURRICULUM PREVIEW -->
+<section>
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">curriculum --preview</div>
+      <h2>Four months, month by month</h2>
+      <p>A short version here — the full breakdown with topics and tools lives on the <a href="courses.html" style="color:var(--violet); text-decoration:underline;">courses page</a>.</p>
+    </div>
+    <div class="grid grid-4">
+      <div class="window accent-coral"><div class="window-bar"><span class="filename mono">Month 01</span></div><div class="window-body tight"><strong>Foundations</strong><p style="margin-top:6px;">HTML, CSS, JS, Git</p></div></div>
+      <div class="window accent-teal"><div class="window-bar"><span class="filename mono">Month 02</span></div><div class="window-body tight"><strong>Frontend</strong><p style="margin-top:6px;">React, Tailwind, APIs</p></div></div>
+      <div class="window accent-violet"><div class="window-bar"><span class="filename mono">Month 03</span></div><div class="window-body tight"><strong>Backend</strong><p style="margin-top:6px;">Node, Express, MongoDB</p></div></div>
+      <div class="window accent-yellow"><div class="window-bar"><span class="filename mono">Month 04</span></div><div class="window-body tight"><strong>Ship it</strong><p style="margin-top:6px;">Capstones, deploy, jobs</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section>
+  <div class="container">
+    <div class="window accent-yellow" style="text-align:center; padding:8px;">
+      <div class="window-bar"><span class="dots"><span></span><span></span><span></span></span><span class="filename">enroll.sh</span></div>
+      <div class="window-body" style="padding:52px 24px;">
+        <h2>Ready to write your first "hired 🚀"?</h2>
+        <p style="max-width:520px; margin-left:auto; margin-right:auto;">Next batch seats are limited to keep classes small and mentorship real.</p>
+        <a href="contact.html" class="btn btn-primary mt-16">▶ Talk to us — ₹4,999 / 4 months</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand"><span class="dots"><span></span><span></span><span></span></span>NXTGEN_ACADEMY</div>
+        <p style="color:rgba(255,255,255,0.7); max-width:320px;">A focused, project-first full-stack web development program. Learn it, build it, ship it.</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="courses.html">Courses</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div>
+        <h4>Program</h4>
+        <div class="footer-links">
+          <span style="color:rgba(255,255,255,0.7);">Duration: 4 months</span>
+          <span style="color:rgba(255,255,255,0.7);">Fee: ₹4,999</span>
+          <a href="contact.html">Enroll now →</a>
+        </div>
+      </div>
+    </div>
+    <hr class="divider" style="opacity:0.15;">
+    <div class="footer-bottom">
+      <span>© 2026 NXTGEN ACADEMY. All rights reserved.</span>
+      <span>Made for people who'd rather build than sit through slides.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

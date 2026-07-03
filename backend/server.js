@@ -15,6 +15,7 @@ const PORT = process.env.PORT || 4000;
 
 app.use(helmet({ contentSecurityPolicy: false })); // CSP off so the plain HTML/CSS/JS frontend needs no extra config
 app.use(morgan('dev'));
+app.use(express.static("public"));
 app.use(express.json({ limit: '10kb' }));
 app.use(express.urlencoded({ extended: true }));
 

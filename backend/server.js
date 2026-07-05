@@ -31,6 +31,11 @@ const formLimiter = rateLimit({
   message: { ok: false, error: 'Too many submissions from this device. Please try again later.' },
 });
 
+
+app.get('/', (req, res)=>{
+    res.sendFile('../frontend/index.html', {root: __dirname});
+})
+
 app.use('/api/contact', formLimiter, contactRouter);
 app.use('/api/admin', adminRouter);
 
